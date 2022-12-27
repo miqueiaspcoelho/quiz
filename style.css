@@ -1,35 +1,10 @@
-li {
-    list-style-type: none;
-    padding-bottom: 10px;
-    align-items: center;
-    text-align: center;
-    display: inline;
-}
-#main {
-    text-align: center;
-    align-items: center;
-    border: 2px;
-    border-color: blue;
-    border-style: solid;
-    min-width: 75%;
-    background-color: rgba(116, 110, 103, 0.679);
-    border-radius: 5px;
-    box-shadow: 2px 3px teal;
-}
-ul{
-    display: grid;
-    border: 0px;
-    border-color: red;
-    border-style: solid;
-    align-items: center;
-    text-align: center;
-    padding-right: 6.5vh;
-}
-
+/*All text - Todo o texto*/
 * {
     margin: 0;
     box-sizing: border-box;
 }
+
+/*Document body - corpo do documento*/
 body {
     min-width: 100vh;
     min-height: 100vh;
@@ -42,6 +17,50 @@ body {
     text-align: center;
 }
 
+/*Main div - div principal*/
+#main {
+    text-align: center;
+    align-items: center;
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+    min-width: 75%;
+    background-color: rgba(116, 110, 103, 0.679);
+    border-radius: 5px;
+    box-shadow: 2px 3px teal;
+}
+
+/*contain buttons, ul and li elements - contem os botões e lista não ordenada*/
+#div1 {
+    align-items: center;
+    text-align: center;
+    display: grid;    
+}
+
+/*h1*/
+#title {
+    color: whitesmoke;
+    font-weight: bolder;
+    cursor: auto;   
+}
+/*Unordered lista - lista não ordenada*/
+ul{
+    display: grid;
+    border: 0px;
+    border-color: red;
+    border-style: solid;
+    align-items: center;
+    text-align: center;
+    padding-right: 6.5vh;
+}
+li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    display: inline;
+}
+/*Alternatives buttons - Alternativas botões*/
 button {
     width: 100%;
     border-radius: 5px;
@@ -60,28 +79,16 @@ button {
     color: white;
 }
 
+/*Score and counter - pontuação e contador*/
 #div2 {
     align-items: center;
     text-align: center;
     display: grid;
     background-color: rgba(188, 95, 95, 0.438);
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    
+    border-top-right-radius: 3px;    
 }
-#div1 {
-    align-items: center;
-    text-align: center;
-    display: grid;  
-    
-}
-#title {
-    color: whitesmoke;
-    font-weight: bolder;
-    cursor: auto;
-   
-    
-}
+/*h2*/
 h2{
     color: whitesmoke;
 }
